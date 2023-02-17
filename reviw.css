@@ -1,0 +1,80 @@
+body {
+    padding: 0px;
+    margin: 0;
+    background-color: #0b1e2a;
+}
+
+.sectRev {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 20% 80%;
+}
+
+h1 {
+    color: #ecf0f1;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bolt;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+    margin-bottom: 45px;
+}
+
+.contRev {
+    background-color: #102F43;
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    height: 500px;
+    border-radius: 15px;
+}
+
+#imgRev {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: solid 2px #3498db;
+    margin-top: 30px;
+}
+
+#titleRev {
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ecf0f1;
+    margin-bottom: 5px;
+}
+
+#spanRev {
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 400;
+    color: #3498db;
+}
+
+#textRev {
+    margin-left: 5%;
+    margin-left: 5%;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #979a9a;
+    line-height: 27px;
+}
+
+#btnRev {
+    padding: 10px;
+    margin-top: 20px;
+    border: solid 2px #3498db;
+    background-color: #0b1e2a;
+    border-radius: 3px;
+    color: #3498db;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#btnRev:hover {
+    background-color: #102F43;
+}
