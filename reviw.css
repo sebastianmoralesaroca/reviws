@@ -7,7 +7,7 @@ body {
 .sectRev {
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 5% 90% 5%;
     grid-template-rows: 20% 80%;
 }
 
@@ -29,6 +29,8 @@ h1 {
     text-align: center;
     height: 500px;
     border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #imgRev {
@@ -77,4 +79,28 @@ h1 {
 
 #btnRev:hover {
     background-color: #102F43;
+}
+
+@media screen and (min-width: 575px ) and (max-width: 990px) and (orientation:portrait) {
+    .sectRev {
+        margin-top: 10px;
+    }
+
+    .contRev {
+        height: 500px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+@media screen and (max-width: 575px) and (orientation:portrait) {
+    .sectRev {
+        margin-top: 0px;
+    }
+
+    .contRev {
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 580px;
+    }
 }
